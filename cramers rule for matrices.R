@@ -26,6 +26,7 @@ cramers <- function(amat, avec)
   return(detvec/maindet)
 }
 
+# sample data to test the function
 a <- matrix(c(2,1,-1,1,1,1,1,-2,-3), nrow=3, byrow=T)
 b <- c(3,1,4)
 
